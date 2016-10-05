@@ -10,7 +10,7 @@ http://railsforzombies.org/ - minicurso rápido, muito bom para fixar ideias de 
 https://www.youtube.com/channel/UCwf9gicXucOZrWT8s7mm6ZQ - canal no youtube do jackson pires, ensina de uma maneira espetacular, recomendo. São 50 vídeos ótimos.
 
 
-HOW TO INSTALL RUBY ON RAILS
+HOW TO INSTALL RUBY ON RAILS- LINUX UBUNTU
 
 1. sudo apt-get update
 2. sudo apt-get install curl
