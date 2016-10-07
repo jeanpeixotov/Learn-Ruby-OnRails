@@ -21,7 +21,7 @@ HOW TO INSTALL RUBY ON RAILS- LINUX UBUNTU
 3. \curl -L https://get.rvm.io | bash -s stable --ruby
 4. rvm get stable --autolibs=enable
 5. rvm install ruby
-  --> close terminal/open again
+  - close terminal/open again
 6. rvm --default use ruby-2.3.1
 7. sudo apt-get install npm
 8. npm install npm@latest -g
@@ -29,7 +29,7 @@ HOW TO INSTALL RUBY ON RAILS- LINUX UBUNTU
 10. gem update
 11. rvm gemset use global
 12. rvm gemset list
-      --> Global
+   - Global
 13. gem install bundler
 14. gem install nokogiri
 15. gem install rails
