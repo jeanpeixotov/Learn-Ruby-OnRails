@@ -1,0 +1,2 @@
+module OccupationsHelper
+end

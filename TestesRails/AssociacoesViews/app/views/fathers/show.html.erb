@@ -1,0 +1,23 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @father.name %>
+  <strong>Cpf:</strong>
+  <%= @father.cpf %>
+  <strong>Email:</strong>
+  <%= @father.email %>
+  <strong>Profissão:</strong>
+  <%= @father.occupation.description %>
+
+</p>  
+  <hr>
+  <ul>
+	  <% @father.children.each do |child|%>
+	  		<li><%= "#{child.name} - #{pegar_sexo(child.sex)}" %></li>
+	  <% end %>
+  </ul>
+
+
+<%= link_to 'Edit', edit_father_path(@father) %> |
+<%= link_to 'Back', fathers_path %>

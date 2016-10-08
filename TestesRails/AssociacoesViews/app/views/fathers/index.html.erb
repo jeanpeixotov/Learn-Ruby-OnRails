@@ -1,0 +1,33 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Fathers</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Cpf</th>
+      <th>Email</th>
+      <th>Profissão</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @fathers.each do |father| %>
+      <tr>
+        <td><%= father.name %></td>
+        <td><%= father.cpf %></td>
+        <td><%= father.email %></td>
+        <td><%= father.occupation.description %></td>
+        <td><%= link_to 'Show', father %></td>
+        <td><%= link_to 'Edit', edit_father_path(father) %></td>
+        <td><%= link_to 'Destroy', father, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Father', new_father_path %>

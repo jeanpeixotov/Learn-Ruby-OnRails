@@ -1,0 +1,33 @@
+<%= form_for(@father) do |f| %>
+  <% if @father.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@father.errors.count, "error") %> prohibited this father from being saved:</h2>
+
+      <ul>
+      <% @father.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </div>
+    <div class="field">
+    <%= f.label :cpf %><br>
+    <%= f.text_field :cpf %>
+  </div>
+    <div class="field">
+    <%= f.label :email %><br>
+    <%= f.text_field :email %>
+  </div>
+  <div class="field">
+    <%= f.label :occupation_id %><br>
+    <%= f.collection_select(:occupation_id, @occupations, :id, :description, include_blank: true)%>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
