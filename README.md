@@ -35,3 +35,5 @@ HOW TO INSTALL RUBY ON RAILS- LINUX UBUNTU
 15. gem install rails
 16. rails -v
 17. Sucesses!!!
+
+if rvm is not a function, try: source ~/.rvm/scripts/rvm
