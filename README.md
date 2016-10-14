@@ -15,7 +15,7 @@ Some tips and materials to learn
   - https://www.youtube.com/channel/UCwf9gicXucOZrWT8s7mm6ZQ - canal no youtube do jackson pires, ensina de uma maneira espetacular, recomendo. São 50 ótimos vídeos.
 
   - Livros online:
-  - https://www.railstutorial.org/book
+  - www.railstutorial.org/book
 
 
 HOW TO INSTALL RUBY ON RAILS- LINUX UBUNTU
