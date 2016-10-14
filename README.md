@@ -16,7 +16,6 @@ Some tips and materials to learn
 
   - Livros online:
   - https://www.railstutorial.org/book
-  -
 
 
 HOW TO INSTALL RUBY ON RAILS- LINUX UBUNTU
